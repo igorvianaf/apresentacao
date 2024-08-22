@@ -1,2 +1,3 @@
-# apresentação
- Repositório de **apresentação** com contatos e currículo feito com html5 e css3
+# Apresentação
+---
+ Repositório de **apresentação** com contatos e currículo feito com HTML5 e CSS3
