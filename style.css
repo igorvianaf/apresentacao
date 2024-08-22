@@ -26,6 +26,9 @@ h2{
 h3{
     color: #17446ea3 ;
 }
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 div{
     text-align: center;
@@ -33,4 +36,5 @@ div{
 
 ul{
     list-style-type: square;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
