@@ -2,7 +2,6 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif; 
-    text-align: justify;
     background-image: linear-gradient(to bottom, #17446E, #A8CCED 50%, #E0F0FF);
     background-attachment: fixed;
 }
@@ -28,6 +27,8 @@ h3{
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 div{
