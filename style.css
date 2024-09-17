@@ -13,17 +13,16 @@ main{
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(1, 30, 30, 0.239);
 }
-
+a{
+    color: black
+}
+a:visited{
+    color: #0D65D9;
+}
 h1 {
     text-align: center;
 }
 
-/* h2{
-    color: #5C9DF2;
-} */
-/* h3{
-    color: #5C9DF2 ;
-} */
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
