@@ -20,6 +20,9 @@ a{
 a:visited{
     color: #0D65D9;
 }
+a:hover{
+    text-decoration: underline;
+}
 h1 {
     text-align: center;
 }
