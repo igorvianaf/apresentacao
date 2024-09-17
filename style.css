@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif; 
-    background-image: linear-gradient(to bottom, #17446E, #A8CCED 50%, #E0F0FF);
+    background-image: linear-gradient(to bottom, #0D65D9, #5C9DF2 50%, #94BDF2);
     background-attachment: fixed;
 }
 main{
@@ -16,15 +16,14 @@ main{
 
 h1 {
     text-align: center;
-    color: #17446E
 }
 
-h2{
-    color: #17446E;
-}
-h3{
-    color: #17446E ;
-}
+/* h2{
+    color: #5C9DF2;
+} */
+/* h3{
+    color: #5C9DF2 ;
+} */
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
