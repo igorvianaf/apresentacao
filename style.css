@@ -9,11 +9,12 @@ body{
 main{
     min-width: 320px;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.829);
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(1, 30, 30, 0.239);
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0px 0px 10px black;
+
 }
 a{
     color: black;
