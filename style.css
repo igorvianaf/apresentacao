@@ -5,24 +5,26 @@
     margin: 0;
 }
 :root{
-    --tom0:#94BDF2;
-    --tom1:#5C9DF2;
-    --tom2:#0D65D9;
-    --tom01:#bbddf2;
+
+    --tom01:#afd5ee;
     --tom02:#94D7F2;
     --tom03:#5FB6D9;
     --tom04: #3D9DD9;
     --tom05:#2C99DC;
+    --tom08:#94BDF2;
+    --tom07:#5C9DF2;
+    --tom06:#0D65D9;
 
     --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte-destaque: "worksans", serif;
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--tom05), var(--tom03), var(--tom01));
+    background-color: var(--tom03);
 }
 
 header{
+    background-image: linear-gradient(to bottom, var(--tom05), var(--tom02));
     text-align: center;
     padding-top: 20px;
 }
@@ -40,51 +42,73 @@ header > p{
     text-align: center;
     font-size: 1.2em
 }
+
+nav{
+    background-color: var(--tom02);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.173);
+}
+nav > a {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav a:hover{
+    background-color: var(--tom05);
+    color: black;
+}
+
 main{
-    width: 650px;
+    max-width: 850px;
+    min-width: 300px;
     margin: auto;
+    margin-top: 5px;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 5px;
     background-color: var(--tom01);
     box-shadow: 0px 0px 7px black;
 }
-main > h1{
-    text-align: center;
+main h1{
     font-family: var(--fonte-destaque);
     padding-bottom: 15px;
+    font-size: 1.4em;
 }
 
-main > p{
+main p{
     font-family: var(--fonte-padrao);
     text-align: justify;
     padding: 15px 10px 15px 10px;
 }
 
-main > h2 {
+main h2 {
     font-family: var(--fonte-destaque);
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-main > div{
+main div{
     text-align: center;
 }
 
-a{
+
+main ul{
+    margin: 10px;
+    list-style-type: circle black;
+    font-family: var(--fonte-padrao);
+}
+
+main a{
     color: black;
     text-decoration: none;
 }
-a:visited{
-    color: #0D65D9;
-}
-a:hover{
-    text-decoration: underline;
+main a:hover{
+    color: black;
 }
 
-
-
-ul{
-    list-style-type: square;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+footer{
+    text-align: center;
+    color: black;
 }
