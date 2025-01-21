@@ -1,9 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-<<<<<<< Updated upstream
-=======
-
 :root{
     --tom0:#94BDF2;
     --tom1:#5C9DF2;
@@ -13,7 +10,6 @@
     --fonte-destaque: "worksans", serif;
 }
 
->>>>>>> Stashed changes
 body{
     background-image: linear-gradient(to bottom, var(--tom2), var(--tom1), var(--tom0));
     background-attachment: fixed;
@@ -42,9 +38,9 @@ main{
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-<<<<<<< Updated upstream
+
     box-shadow: 5px 5px 15px rgba(1, 30, 30, 0.239);
-=======
+
     background-color: rgba(255, 255, 255, 0.829);
     box-shadow: 0px 0px 10px black;
 }
@@ -58,7 +54,7 @@ main > p{
     padding-left: 10;
     padding-right: 10px;
 
->>>>>>> Stashed changes
+
 }
 
 a{
