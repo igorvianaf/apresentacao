@@ -1,23 +1,29 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+}
 :root{
     --tom0:#94BDF2;
     --tom1:#5C9DF2;
     --tom2:#0D65D9;
+    --tom01:#bbddf2;
+    --tom02:#94D7F2;
+    --tom03:#5FB6D9;
+    --tom04: #3D9DD9;
+    --tom05:#2C99DC;
 
     --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte-destaque: "worksans", serif;
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--tom2), var(--tom1), var(--tom0));
-    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, var(--tom05), var(--tom03), var(--tom01));
 }
 
 header{
     text-align: center;
-    margin-bottom: 40px;
     padding-top: 20px;
 }
 
@@ -25,36 +31,44 @@ header > h1{
     font: var(--fonte-destaque);
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 20px;
 
 }
 header > p{
     font: var(--fonte-padrao);
+    padding-bottom: 40px;
     text-align: center;
     font-size: 1.2em
 }
 main{
     width: 650px;
-    background-color: rgba(255, 255, 255, 0.829);
-    padding: 20px;
     margin: auto;
-    border-radius: 10px;
-
-    box-shadow: 5px 5px 15px rgba(1, 30, 30, 0.239);
-
-    background-color: rgba(255, 255, 255, 0.829);
-    box-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--tom01);
+    box-shadow: 0px 0px 7px black;
 }
 main > h1{
     text-align: center;
     font-family: var(--fonte-destaque);
+    padding-bottom: 15px;
 }
+
 main > p{
     font-family: var(--fonte-padrao);
     text-align: justify;
-    padding-left: 10;
-    padding-right: 10px;
+    padding: 15px 10px 15px 10px;
+}
 
+main > h2 {
+    font-family: var(--fonte-destaque);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+main > div{
+    text-align: center;
 }
 
 a{
@@ -68,9 +82,7 @@ a:hover{
     text-decoration: underline;
 }
 
-div{
-    text-align: center;
-}
+
 
 ul{
     list-style-type: square;
