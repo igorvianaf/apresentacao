@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+
 :root{
 
     --tom01:#afd5ee;
@@ -36,6 +37,7 @@ header > h1{
     margin-bottom: 20px;
 
 }
+
 header > p{
     font: var(--fonte-padrao);
     padding-bottom: 40px;
@@ -47,6 +49,7 @@ nav{
     background-color: var(--tom02);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.173);
 }
+
 nav > a {
     padding: 10px;
     border-radius: 5px;
@@ -55,6 +58,7 @@ nav > a {
     font-weight: bold;
     transition-duration: .4s;
 }
+
 nav a:hover{
     background-color: var(--tom05);
     color: black;
@@ -72,6 +76,7 @@ main{
     background-color: var(--tom01);
     box-shadow: 0px 0px 7px black;
 }
+
 main h1{
     font-family: var(--fonte-destaque);
     padding-bottom: 15px;
