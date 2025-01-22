@@ -48,11 +48,12 @@ header > p{
 nav{
     background-color: var(--tom02);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.173);
+    font-size: 1.2em;
 }
 
 nav > a {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -79,14 +80,8 @@ main{
 
 main h1{
     font-family: var(--fonte-destaque);
-    padding-bottom: 15px;
-    font-size: 1.4em;
-}
-
-main p{
-    font-family: var(--fonte-padrao);
-    text-align: justify;
-    padding: 15px 10px 15px 10px;
+    font-size: 2em;
+    padding: 10px;
 }
 
 main h2 {
@@ -95,10 +90,18 @@ main h2 {
     padding-bottom: 15px;
 }
 
-main div{
-    text-align: center;
+main p{
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    padding: 15px 10px;
+    text-indent: 30px;
+    line-height: 1.5em;
 }
 
+main div{
+    padding-top: 15px;
+    text-align: center;
+}
 
 main ul{
     margin: 10px;
@@ -110,11 +113,16 @@ main a{
     color: black;
     text-decoration: none;
 }
+
 main a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 footer{
     text-align: center;
     color: black;
+    font-size: 1em;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
