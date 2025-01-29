@@ -76,8 +76,9 @@ main{
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 5px;
-    background-image: url(img/wallpaper004.jpg);
-    background-position: left bottom;
+    background-image: url(img/soft-blue-gradient-abstract-background.jpg);
+    background-position: left top;
+    background-size: cover;
     box-shadow: 0px 0px 7px black;
 }
 
