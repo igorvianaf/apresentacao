@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,25 +7,25 @@
 
 :root{
 
-    --tom01:#badaf0;
+    --tom01:#486E86;
     --tom02:#94D7F2;
-    --tom03:#5FB6D9;
+    --tom03:#B6C7D1;
     --tom04: #3D9DD9;
     --tom05:#2C99DC;
     --tom08:#94BDF2;
     --tom07:#5C9DF2;
     --tom06:#0D65D9;
 
-    --fonte-padrao: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    --fonte-padrao: Arial, Helvetica, sans-serif, Helvetica, ;
     --fonte-destaque: "worksans", serif;
 }
 
 body{
-    background-color: var(--tom03);
+    background-color: var(--tom01);
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--tom05), var(--tom02));
+    background-image: linear-gradient(to top, var(--tom05), var(--tom02));
     text-align: center;
     padding-top: 20px;
 }
@@ -48,7 +48,7 @@ header > p{
 }
 
 nav{
-    background-color: var(--tom02);
+    background-color: var(--tom05);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.173);
     font-size: 1.2em;
 }
@@ -63,12 +63,14 @@ nav > a {
 }
 
 nav a:hover{
-    background-color: var(--tom05);
-    color: black;
+    background-color: var(--tom01);
+    color: white;
+    margin: 10px;
     padding: 5px 5px 0px 5px;
 }
 
 main{
+    background-color: var(--tom03);
     max-width: 850px;
     min-width: 300px;
     margin: auto;
@@ -76,8 +78,6 @@ main{
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 5px;
-    background-image: url(img/background001.jpeg);
-    background-size: cover;
     box-shadow: 0px 0px 7px black;
 }
 
@@ -89,13 +89,14 @@ main h1{
 
 main h2 {
     font-family: var(--fonte-destaque);
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 main p{
     font-family: var(--fonte-padrao);
+    font-size: 1.2em;
     text-align: justify;
     padding: 15px 10px;
     text-indent: 30px;
@@ -125,7 +126,7 @@ main a:hover{
 
 footer{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 1em;
     padding-bottom: 15px;
     font-weight: bold;
